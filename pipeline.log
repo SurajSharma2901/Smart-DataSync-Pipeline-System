@@ -1,0 +1,13 @@
+2025-07-23 16:03:08,675 [INFO] Running job immediately for testing
+2025-07-23 16:03:08,676 [INFO] Starting country data fetch
+2025-07-23 16:03:09,529 [INFO] Successfully saved data for india to country_data\india.json
+2025-07-23 16:03:10,924 [INFO] Successfully saved data for us to country_data\us.json
+2025-07-23 16:03:12,098 [INFO] Successfully saved data for uk to country_data\uk.json
+2025-07-23 16:03:13,172 [INFO] Successfully saved data for china to country_data\china.json
+2025-07-23 16:03:14,049 [INFO] Successfully saved data for russia to country_data\russia.json
+2025-07-23 16:03:14,051 [INFO] Completed country data fetch
+2025-07-23 16:03:14,053 [INFO] Starting database to ADLS copy
+2025-07-23 16:03:14,061 [ERROR] Error fetching customer count: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-07-23 16:03:14,064 [INFO] Customer count (0) <= 500, skipping copy
+2025-07-23 16:03:14,066 [INFO] Completed database to ADLS copy
+2025-07-23 16:03:14,141 [INFO] Scheduler started. Waiting for scheduled times (12:00 AM and 12:00 PM IST)...
